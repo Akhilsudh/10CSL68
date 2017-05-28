@@ -1,0 +1,7 @@
+stdio.h
+unistd.h
+sys/types.h
+sys/stat.h
+fcntl.h
+string.h
+
