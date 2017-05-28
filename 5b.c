@@ -6,7 +6,7 @@ int main(int argc, char **argv)
 {
 	if(argc == 3)
 		if(link(argv[1], argv[2]) == -1)
-			printf("Errror found\n");
+			printf("Error has occurred\n");
 		else
 			printf("New hard link created\n");
 	else
