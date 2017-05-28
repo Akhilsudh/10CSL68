@@ -8,3 +8,4 @@ stdlib.h
 sys/wait.h
 errno.h
 ctype.h
+signal.h
