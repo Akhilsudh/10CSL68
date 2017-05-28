@@ -4,7 +4,7 @@
 	#include<stdlib.h>
 	#include<string.h>
 	#define MAX 100
-	int getREindex(const char*);
+	int getREindex(const char *);
 	signed char productions[MAX][MAX];
 	int count = 0,i,j;
 	char temp[MAX+MAX],temp1[MAX+MAX];
@@ -42,7 +42,7 @@ re	:	ALPHA		{	temp[0]=yylval;
 	|	re'.'re		{	strcpy(productions[count++],"re.re");	}
 	;
 %%
-int main() {
+int main(int argc, char **argv) {
 	yyparse();
 	return 0;
 }
