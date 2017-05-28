@@ -14,7 +14,7 @@ int main(int argc, char* argv[]) {
 	lseek(fd,-100,SEEK_END);
 	filelock.l_whence = SEEK_CUR;
 	filelock.l_start = 0;
-	filelock.l_len - 100;
+	filelock.l_len = 100;
 	if(fcntl(fd,F_GETLK,&filelock) == 0) {
 		printf("File is locked\n");
 		return 0;
