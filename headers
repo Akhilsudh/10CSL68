@@ -7,3 +7,4 @@ string.h
 stdlib.h
 sys/wait.h
 errno.h
+ctype.h
