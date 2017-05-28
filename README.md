@@ -1,10 +1,7 @@
 ## Unix Systems Programming and Compiler Design Lab (VTU 10CSL68)
 
 ### List of Experiments for USP : Design, develop, and execute the following programs  
-1.  [Write  a  C/C++  POSIX  compliant  program  to  check  the following limits:](https://raw.githubusercontent.com/Akhilsudh/10CSL68/master/1.c)    
-    [(i) No. of clock ticks      (ii)  Max.  no. of  child  processes](https://raw.githubusercontent.com/Akhilsudh/10CSL68/master/1.c)        
-    [iii) Max. path length       (iv) Max. no. of characters in a file name](https://raw.githubusercontent.com/Akhilsudh/10CSL68/master/1.c)      
-    [(v)   Max. no. of open files process ](https://raw.githubusercontent.com/Akhilsudh/10CSL68/master/1.c)    
+1.  [Write  a  C/C++  POSIX  compliant  program  to  check  the following limits:    (i) No. of clock ticks (ii)  Max.  no. of  child  processes    iii) Max. path length  (iv) Max. no. of characters in a file name    (v)   Max. no. of open files process ](https://raw.githubusercontent.com/Akhilsudh/10CSL68/master/1.c)    
 
 2.  [Write a C/C++ POSIX compliant program that prints the POSIX defined configuration options supported on any given system using feature test macros.](https://raw.githubusercontent.com/Akhilsudh/10CSL68/master/2.c)    
 
