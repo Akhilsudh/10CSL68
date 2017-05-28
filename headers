@@ -4,4 +4,6 @@ sys/types.h
 sys/stat.h
 fcntl.h
 string.h
-
+stdlib.h
+sys/wait.h
+errno.h
