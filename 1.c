@@ -11,7 +11,7 @@ int main() {
 		printf("Error in _SC_CHILD_MAX\n");
 	else printf("Max no of child process=%ld\n",res);
 	if((res=pathconf("/",_PC_PATH_MAX))==-1)
-		printf("Error in _PC_CHILD_MAX\n");
+		printf("Error in _PC_PATH_MAX\n");
 	else printf("Max path length=%ld\n",res);
 	if((res=pathconf("1.c",_PC_NAME_MAX))==-1)
 		printf("Error in _PC_NAME_MAX\n");
