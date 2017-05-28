@@ -34,7 +34,7 @@
 ### Compiling the code
 For C programs
     
-    gcc file.c //For C programs
+    gcc file.c
     
 For YACC programs
 
