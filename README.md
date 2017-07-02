@@ -7,7 +7,7 @@
 
 3. [Consider the last 100 bytes as a region. Write a C/C++  program  to check  whether  the  region  is  locked  or  not.  If  the  region  is  locked,print pid of the process which has locked. If the region is not locked, lock  the  region  with  an  exclusive  lock,  read  the  last  50  bytes  and unlock the region. ](https://raw.githubusercontent.com/Akhilsudh/10CSL68/master/3.c)
 
-4.  [Write a C/C++ program which demonstrates interprocess communication between a reader process and a writer process.  Use mkfifo, open, read, write and close APIs in your program. ](https://raw.githubusercontent.com/Akhilsudh/10CSL68/master/4.cpp)
+4.  [Write a C/C++ program which demonstrates interprocess communication between a reader process and a writer process.  Use mkfifo, open, read, write and close APIs in your program. ](https://raw.githubusercontent.com/Akhilsudh/10CSL68/master/4.c)
 
 5.  a. [Write a C/C++ program that outputs the contents of its Environment list ](https://raw.githubusercontent.com/Akhilsudh/10CSL68/master/5a.c)    
     b. [Write a C / C++ program to emulate the unix ln command ](https://raw.githubusercontent.com/Akhilsudh/10CSL68/master/5b.c)
